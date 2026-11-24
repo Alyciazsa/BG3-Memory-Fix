@@ -6,6 +6,7 @@
 [![Renderers Vulkan & DX11](https://img.shields.io/badge/Renderers-Vulkan%20%7C%20DirectX%2011-success.svg)](#-universal-support--compatibility)
 [![Storefronts Steam & GOG](https://img.shields.io/badge/Editions-Steam%20%7C%20GOG-informational.svg)](#-universal-support--compatibility)
 [![Dependencies KERNEL32 Only](https://img.shields.io/badge/Imports-KERNEL32.dll%20Only-orange.svg)](SECURITY.md)
+[![Built with Google Antigravity](https://img.shields.io/badge/Built%20with-Google%20Antigravity-4285F4.svg)](https://antigravity.google)
 
 A lightweight, open-source C++20 native engine plugin for **Baldur's Gate 3** that lifts Larian Engine's hardcoded **`5.375 GiB` (`5,504 MiB` / `16`-chunk)** `ls::GlobalAllocator` memory ceiling—stopping the infamous **75%–100% save-loading crashes** and **Act 3 / heavy combat out-of-memory CTDs** on heavily modded setups (300–700+ mods), even when your PC still has plenty of free RAM.
 
@@ -267,6 +268,7 @@ pwsh -NoProfile -File .\build.ps1 -Bg3BinDir "D:\Games\Baldurs Gate 3\bin"
 1. **[AlyciaX / @Alyciazsa](https://github.com/Alyciazsa)** — Root-cause reverse engineering of `ls::GlobalAllocator`'s `5.375 GiB` ceiling & implementation ([Nexus Mods Profile](https://www.nexusmods.com/profile/AlyciaXY), [BG3ModSync](https://github.com/Alyciazsa/BG3-Mod-Sync-Utility)).
 2. **[kassent](https://www.nexusmods.com/baldursgate3/mods/944)** — Creator of *Baldur's Gate 3 Native Mod Loader* (`bink2w64.dll`), enabling native C++ plugins inside `bin\NativeMods\`.
 3. **[Norbyte](https://github.com/Norbyte/bg3se)** — *BG3 Script Extender* & open-source BG3 engine research ecosystem.
+4. **[Google Antigravity](https://antigravity.google)** — Built with AI-assisted development using Google Antigravity (human-directed architecture, testing, and verification).
 
 ---
 

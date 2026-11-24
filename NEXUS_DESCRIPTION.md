@@ -84,3 +84,4 @@ A: It only lifts BG3's `5.375 GiB` engine allocator limit. It cannot fix broken/
 
 [b]Source Code & Checksums:[/b] [url=https://github.com/Alyciazsa/BG3-Memory-Fix]https://github.com/Alyciazsa/BG3-Memory-Fix[/url]
 [b]Related Tool (Modpack Sync for Co-op):[/b] [url=https://www.nexusmods.com/baldursgate3/mods/25251]BG3 Mod Sync Utility (#25251)[/url]
+[b]AI Development Tool:[/b] Built with [url=https://antigravity.google]Google Antigravity[/url].
