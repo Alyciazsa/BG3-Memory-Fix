@@ -1,0 +1,20 @@
+# Compiled build outputs & test artifacts
+build/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.exe
+*.dll
+
+# Release staging & binary archives (distribute via GitHub Releases / Nexus Mods)
+release/stage/
+release/*.zip
+release/*.txt
+
+# IDE / Editor temporary files
+.vs/
+*.user
+*.suo
+*.log
