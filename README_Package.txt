@@ -1,6 +1,7 @@
 BG3 Memory Fix (00_BG3MemFix.dll) — Universal AOB Edition
 ===========================================================
 GitHub: https://github.com/Alyciazsa/BG3-Memory-Fix
+Nexus:  https://www.nexusmods.com/baldursgate3/mods/26927
 License: MIT
 
 What This Fixes

@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Latest Release](https://img.shields.io/github/v/release/Alyciazsa/BG3-Memory-Fix?label=Release&color=brightgreen)](https://github.com/Alyciazsa/BG3-Memory-Fix/releases/latest)
+[![Nexus Mods #26927](https://img.shields.io/badge/Nexus%20Mods-%2326927-DA8E35.svg)](https://www.nexusmods.com/baldursgate3/mods/26927)
 [![Platform Windows x64](https://img.shields.io/badge/Platform-Windows%2010%2F11%20x64-0078D4.svg)](https://www.microsoft.com/windows)
 [![Renderers Vulkan & DX11](https://img.shields.io/badge/Renderers-Vulkan%20%7C%20DirectX%2011-success.svg)](#-universal-support--compatibility)
 [![Storefronts Steam & GOG](https://img.shields.io/badge/Editions-Steam%20%7C%20GOG-informational.svg)](#-universal-support--compatibility)
@@ -10,6 +11,7 @@
 
 A lightweight, open-source C++20 native engine plugin for **Baldur's Gate 3** that lifts Larian Engine's hardcoded **`5.375 GiB` (`5,504 MiB` / `16`-chunk)** `ls::GlobalAllocator` memory ceiling—stopping the infamous **75%–100% save-loading crashes** and **Act 3 / heavy combat out-of-memory CTDs** on heavily modded setups (300–700+ mods), even when your PC still has plenty of free RAM.
 
+> 🔗 **Nexus Mods Page:** [BG3 Memory Fix — Universal AOB (#26927)](https://www.nexusmods.com/baldursgate3/mods/26927)  
 > 📦 **Companion Tool for Multiplayer Groups:** [BG3ModSync — Zero-Copy Nginx HTTP, Steam P2P & VPN Edition](https://github.com/Alyciazsa/BG3-Mod-Sync-Utility) ([Nexus #25251](https://www.nexusmods.com/baldursgate3/mods/25251)) — synchronizes `.pak` mods, `modsettings.lsx`, Script Extender JSONs, and `NativeMods` DLLs (including `00_BG3MemFix.dll`) directly between Host and Clients.
 
 ---
@@ -160,7 +162,7 @@ Instead of hardcoding version-locked RVAs (`TimeDateStamp` / `SizeOfImage`), `00
    - Install **[Native Mod Loader (Nexus #944)](https://www.nexusmods.com/baldursgate3/mods/944)** into `<BG3 Install Folder>\bin\` (`bink2w64.dll` + `bink2w64_original.dll`).
    - Make sure **[Visual C++ 2015–2022 Redistributable (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe)** is installed (required by Native Mod Loader).
 2. **Download `BG3MemFix`:**
-   - Grab `BG3MemFix_v1.0.0_Universal.zip` from **[GitHub Releases](https://github.com/Alyciazsa/BG3-Memory-Fix/releases/latest)** (or Nexus Mods).
+   - Grab `BG3MemFix_v1.0.0_Universal.zip` from **[GitHub Releases](https://github.com/Alyciazsa/BG3-Memory-Fix/releases/latest)** or **[Nexus Mods #26927](https://www.nexusmods.com/baldursgate3/mods/26927)**.
 3. **Extract to Your BG3 `bin\NativeMods\` Folder:**
    - Make sure **Baldur's Gate 3 is closed**.
    - Place `00_BG3MemFix.dll` at:
