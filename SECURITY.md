@@ -1,5 +1,11 @@
 # Security Policy
 
+> **Looking for the mod or downloads?**
+> - **Main Project Page:** [BG3-Memory-Fix README](https://github.com/Alyciazsa/BG3-Memory-Fix#readme)
+> - **GitHub Releases:** [Latest Releases](https://github.com/Alyciazsa/BG3-Memory-Fix/releases)
+> - **Nexus Mods:** [https://www.nexusmods.com/baldursgate3/mods/26927](https://www.nexusmods.com/baldursgate3/mods/26927)
+
+
 ## 🔒 Transparency & Zero-Network Guarantee
 
 **BG3 Memory Fix (`00_BG3MemFix.dll`)** is an auditable, single-purpose C++20 native plugin that runs strictly in-process inside `bg3.exe` / `bg3_dx11.exe`:
